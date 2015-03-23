@@ -1,1 +1,1 @@
-<p>Todos os direitos reservados - 2015</p>
+<p>Todos os direitos reservados - <?php echo date("Y"); ?>. </p>
