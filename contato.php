@@ -2,7 +2,14 @@
 
 <!-- VALIDAÇÃO DO FORMULÁRIO -->
 <?php
-if($_GET['form']=='enviar'){
+
+
+ini_set('display_errors', true);
+error_reporting(E_ALL);
+
+$form = filter_input(INPUT_GET, "form");
+
+if($form=='enviar'){
 if(isset($_POST['email'])) {
  
      
