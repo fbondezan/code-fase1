@@ -64,7 +64,7 @@ if(isset($_POST['email'])) {
  
     $email_from = $_POST['email']; // required
  
-    $telephone = $_POST['telephone']; // not required
+   // $telephone = $_POST['telephone']; // not required
  
     $comments = $_POST['comments']; // required
  
